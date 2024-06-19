@@ -1,0 +1,218 @@
+head {
+	background-color: #e47711;
+	color: #e47711;
+}
+
+.usr img {
+	width: 2%;
+	margin-bottom: -4%;
+	margin-left: 93%;
+}
+
+body {	
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+	background: #000000;
+}
+
+.content {
+    border-style: groove;
+	margin-top: -60%;
+    height: 520px;
+    width: 935px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 220px; /* Esse carrossel de imagens tem que ficar acima do rodapé da página com informações */
+}
+
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 70px;
+    height: 17px;
+    border: 2px solid #ffffff;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.bar:hover {
+    background-color: #ffffff;
+    transition: 0.4s;
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 1000%;
+    height: 100%; 
+    transition: transform 0.6s ease; 
+    position: relative; 
+	
+}
+
+.slide {
+    width: 10%;
+    flex: 0 0 auto;
+    transition: transform 0.6s ease; 
+    position: relative; 
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+	object-fit: cover;
+}
+
+#slide1:checked ~ .s1{  /* O TIL ~ Quando o slide 1 estiver checado, eu quero que o S1 tenha uma margem  */
+	margin-left: 0%;
+}
+#slide2:checked ~ .s1{
+	margin-left: -10%;
+}
+#slide3:checked ~ .s1{
+	margin-left: -20%;
+}
+#slide4:checked ~ .s1 {
+	margin-left: -30%;
+}
+#slide5:checked ~ .s1 {
+	margin-left: -40%;
+}
+#slide6:checked ~ .s1 {
+	margin-left: -50%;
+}
+#slide7:checked ~ .s1 {
+	margin-left: -60%;
+}
+#slide8:checked ~ .s1 {
+	margin-left: -70%;
+}
+#slide9:checked ~ .s1 {
+	margin-left: -80%;
+}
+#slide10:checked ~ .s1 {
+	margin-left: -90%;
+}
+
+li a:hover {
+	font-family: cursive;
+	font-size:120%;
+	transition: 1s;
+	background: linear-gradient(to top, #FF952B,#000000);
+}
+
+li a {
+	font-family: cursive;
+	width:140px;
+	transition: 0.5s;
+	display: inline-block;
+	color:#ffffff;
+	text-align:center;
+	padding:16px;
+	text-decoration:none;
+	font-size:100%;
+}
+li.boom img {
+	width: 40%;
+	margin: auto;
+	display: block;
+}
+
+ul {
+	list-style-type:none;
+	margin:5px;
+	padding:5px;
+	overflow:hidden;
+	background-color:black;
+	
+}
+li  {
+
+	margin-left: 40px;
+	float:left;
+}
+
+p {
+	text-align:center;
+}
+
+p.slogan {
+	padding-left: 10px;
+	margin-top: -22%;
+	text-align: left;
+	color: #ffffff;
+	font-size: 120%;
+}
+
+h2.apres {
+	margin-top:5%;
+	color: #ffffff;
+	font-size:200%;
+	text-align:center;
+	font-family: verdana;
+}
+.apres img {
+	width: 10%;
+}
+
+h1.titulo {
+	padding-left: 10px;
+	text-shadow: 1.2px 1.2px 2.5px #FFFFFF;
+	font-size: 400%;
+	color: #FF952B;
+	font-family: "Lucida Handwriting", cursive;
+}
+h2 {
+	color: #ffffff;
+}
+h2.especialistas{
+	color: #ffffff;
+	text-align: center;
+	font-size: 200%;
+	font-family: "Lucida Handwriting", cursive;
+}
+p {
+	color: #FFFFFF;
+	font-family: cursive;
+	font-size: 130%;
+	padding-top: 20%;
+}
+
+.especialidades img{
+
+	width: 40%;
+	margin: auto;
+	display: block;
+}
+td.col {
+	border-left: 1px solid white;
+}
+
+.cadastro {
+	background-color: #e47711;
+	color: #e47711;
+	height: 220px;
+	margin-top: -2%;
+}
+
+
+
+
+
+
+	
